@@ -384,11 +384,15 @@ footer {
 
     
     .features {
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
         padding: 20px;
         width: 95vw;
         margin: 30px auto;
+    }
+
+    .feature-details{
+        padding-bottom: 20px;
     }
 
     .feature-description {
